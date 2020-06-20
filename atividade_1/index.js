@@ -5,7 +5,5 @@ var readlineSync = require('readline-sync');
 var numeroVoo = readlineSync.question('Qual o numero do seu voo? ');
 
 // Handle the secret text (e.g. password).
-var fileiraSentar = readlineSync.question('Qual a fileira deseja se sentar? ', {
-    hideEchoBack: true
-});
+var fileiraSentar = readlineSync.question('Qual a fileira deseja se sentar? ');
 console.log('Seu vôo de número ' + numeroVoo + ' está reservado na fileira ' + fileiraSentar + ' Obrigado! ');
