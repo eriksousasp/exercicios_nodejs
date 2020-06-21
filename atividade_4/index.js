@@ -42,5 +42,5 @@ if (dia >= 20 && mes == 01 || dia <= 18 && mes == 02) {
 if (dia >= 19 && mes == 02 || dia <= 20 && mes == 03) {
     console.log('Seu signo é: Peixes');
 } else {
-    console.log('Por favor digite sua data de nascimento em números');
+    console.log('Por favor digite sua data de nascimento em números de 01 a 31 para dia e 01 a 12 para mês');
 }
